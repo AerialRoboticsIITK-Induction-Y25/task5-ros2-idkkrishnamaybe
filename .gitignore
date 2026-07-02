@@ -29,3 +29,10 @@ __pycache__/
 # OS specific files
 .DS_Store
 Thumbs.db
+
+# Local task files
+2.txt
+Task3.cpp
+oops.cpp
+task5_drone_fleet.md
+
