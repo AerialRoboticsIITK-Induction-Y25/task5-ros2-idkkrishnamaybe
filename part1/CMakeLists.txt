@@ -6,14 +6,14 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_compile_options(-Wall -Wextra)
 
-include_directories(${CMAKE_CURRENT_SOURCE_DIR})
+include_directories(include)
 
 set(SOURCES
-    main.cpp
-    vehicle.cpp
-    drone.cpp
-    mission_drone.cpp
-    autonomous_drone.cpp
+    src/main.cpp
+    src/vehicle.cpp
+    src/drone.cpp
+    src/mission_drone.cpp
+    src/autonomous_drone.cpp
 )
 
 add_executable(drone_oop ${SOURCES})
