@@ -1,0 +1,38 @@
+# Build and install folders
+build/
+install/
+log/
+.catkin_tools/
+.colcon/
+
+# C++ build systems
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+*.o
+*.so
+*.a
+
+# Python caches
+__pycache__/
+*.pyc
+
+# IDEs
+.vscode/
+.idea/
+.project
+.cproject
+.settings/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Local task files
+2.txt
+Task3.cpp
+oops.cpp
+task5_drone_fleet.md
+
